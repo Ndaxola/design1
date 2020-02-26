@@ -1,0 +1,32 @@
+body{
+margin: 0 auto;
+height: 100%;
+}
+.top{
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-gap: 300px;
+  padding: 10px;
+  background: #090710;
+  color: #fff;
+  width: 100%;
+}
+.navigationbar ul{
+  list-style: none;
+  text-align: center;
+  margin-top: -40px;
+  padding-bottom: 15px;
+}
+.navigationbar ul li{
+  display: inline-grid;
+  margin: 30px;
+}
+.navigationbar ul li a{
+  text-decoration: none;
+  color: #000;
+}
+header{
+  width: 100%;
+  background-color: #fff;
+}
